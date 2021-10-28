@@ -1,11 +1,15 @@
-*{font-family: 'PT Sans', sans-serif;
+*{
 	margin: 0; padding: 0;}
-
+	@font-face {
+		font-family:'PT Sans';
+		src: url(/fonts/PTSans-Regular.ttf);
+	}
+	p{margin: 0;padding: 0;}
 	.header-wrap {
 		width: 100%;
 	}
 	.header{
-		background: #dcdc;
+		background: #DCDCDC;
 		height: 170px;
 		width: 980px;
 		padding: 0 10px;
@@ -16,12 +20,18 @@
 		background: #777;
 		margin-top: 40px;
 		} 
-		.named{font-weight: 900;
-			font-size: 18px;
+		.named{
+			padding-top: 10px;
+			line-height: 22px;
+			font-weight: 900;
+			font-size: 22px;
 			padding-left: 20px;
 			color: #777;
+			margin:0
 			}
 		.little{
+			font-family:'PT Sans';
+			line-height: 22px;
 			font-weight: 400;
 			font-size: 13px;
 			color: #777;
@@ -29,12 +39,23 @@
 			width: 300px;
 		}
 		.logs{ margin-top: 40px; }
-		.cont{padding-top: 40px;
+		.cont{
+			font-family:'PT Sans';
+			font-weight:700 ;
+			
+			line-height: 22px;
+			padding-top: 55px;
 			color: #777;
-			font-size: 24px;
+			font-size: 25px;
 			font-weight: 300;
+	
+		}
+		.cont p{
+			margin:0
 		}
 		.men{
+			font-family:'PT Sans';
+			line-height: 22px;
 			background-color: #777;
 			height: 45px;
 			font-size: 20px;
@@ -46,6 +67,7 @@
 		}
 		
 		.links{
+			
 			padding: 5px 200	px;
 		}
 		
@@ -53,8 +75,9 @@
 			text-decoration: None;
 			color: whitesmoke;
 		}
-		.links a:hover {text-decoration: underline;
-		color: whitesmoke;}
+		.links a:hover {
+			text-decoration: underline;
+		    color: whitesmoke;}
 		
 		.slider-wrap{
 			width: 100%;
@@ -65,4 +88,24 @@
 			margin: auto;
 			
 		}
-		
+		.navBar{
+			font-family:'PT Sans';
+			width: 980px;
+			margin: auto;
+			padding-left:150px;
+			font-size: 15px;
+			padding-top: 5px;
+		}
+		.navBar a{
+			color: #777;
+		}
+		.navBar a :hover{
+			color: #777;
+			text-decoration: none	;
+		}
+		.breadcrumb-item + .breadcrumb-item::before {
+			display: inline-block;
+			padding-right: 0.5rem;
+			color: #6c757d;
+			content: "/";
+		}

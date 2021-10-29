@@ -51,7 +51,7 @@
 	
 		}
 		.cont p{
-			margin:0
+			margin:5px
 		}
 		.men{
 			font-family:'PT Sans';
@@ -108,4 +108,91 @@
 			padding-right: 0.5rem;
 			color: #6c757d;
 			content: "/";
+		}
+		.content{
+			max-width: 980px;
+			margin: 0 auto;
+			font-family: 'PTSans';
+			color: #777;
+			text-decoration:none;
+		}
+		.lefblock{
+			
+		}
+		.gambur {
+			font-family: 'PTSans';
+			padding-left: 115px;
+			max-width: 300px;
+			font-size: 18px;
+			
+			
+		}
+		.submenu {
+		display: none; 
+		width: 100px	;
+		padding:0;
+		font-size: 12px;
+		
+		
+		}
+		.submenu a:hover{
+			
+		}
+		.gambur li {
+		list-style: none;
+		}
+		.gambur li:hover .submenu {
+		display: block; 
+			
+		}
+		.just-list{
+			padding-left: 0;
+		}
+		.rightblock-high{
+			max-width: 980px;
+			
+			
+		}
+		.price{
+			padding-left: 10;
+		}
+		.photoss{
+			padding-left: 125px;
+			padding-top: 10px;
+		}
+		.shopItem1,.shopItem2,.shopItem3{
+			padding-left: 15px;
+			padding-top: 20px;
+			margin-right: 30px;
+			width: 170px;
+			height: 250px;
+			background-color: #DCDCDC;
+		}
+		.rightblock-down{
+			max-width: 980px;
+			margin: 0 0 0 350px;
+			
+			
+		}
+		.shopItem4,.shopItem5{
+			padding-left: 15px;
+			padding-top: 20px;
+			margin-right: 30px;
+			width: 170px;
+			height: 250px;
+			background-color: #DCDCDC;
+			margin-bottom: 10px;
+			
+			
+		}
+		.numbs{
+			font-family:'PTSans';
+			max-width: 980px;
+			margin: auto;
+		}
+		.final{
+			margin-left: 350px; 
+			width: 570px;
+			
+			font-size: 10px;
 		}

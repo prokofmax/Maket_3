@@ -196,3 +196,74 @@
 			
 			font-size: 10px;
 		}
+		.blocks{
+			font-family: 'PTSans';
+			font-size: 10px;
+		}
+		.block1{
+			/* background-color: black; */
+			width: 200px;
+			word-wrap: break-word;
+		}
+		.block2{
+			width: 300px;
+			margin-left: 20px;
+			word-wrap: break-word;
+			/* background-color: red; */
+
+		}
+		.m-f{
+			width: 100%;
+		}
+		.f-r{
+			width: 980px;
+			height: 150px;
+			background-color: #777;
+			margin: auto;
+		}
+		.ff{
+		height: 100%;
+		padding-top: 30px;
+		font-size: 12px;}
+		.tit{
+			color: whitesmoke;
+		
+			padding: 0px 0 0 150px;
+		}
+		.tit p{
+			margin: 0;
+		}
+		.linksus a {
+			text-decoration: underline;
+			color: whitesmoke;
+		}
+		.linksus a:hover {
+			text-decoration: underline;
+			color: whitesmoke;
+		}
+		.final{
+			
+			margin-left: 100px;
+		}
+		.clasus{
+			margin-left: 5px;
+		}
+		.clasus a{
+			text-decoration: underline;
+			color: whitesmoke;
+		
+		}
+		.clasus a:hover {
+			text-decoration: underline;
+			color: whitesmoke;
+		}
+		.footer{
+			margin-top:100px ;
+		}
+		.mySlides {
+		margin: auto;
+		width: 980px;
+		/* height: px; */
+			
+		
+		}
